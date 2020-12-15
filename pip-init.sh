@@ -1,4 +1,4 @@
-#!./bash
+#!/bin/bash
 if [[ $1 = pip ]]; then
 	pip install flask
     pip install mysql-connector-python
