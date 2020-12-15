@@ -4,6 +4,10 @@ On Mac/Linux:
   alias flask-init = "<path-to-flask-helper>/flask-init.sh $1" && 
   alias pip-init = "<path-to-flask-helper>/pip-init.sh $1" && 
   alias venv-init = "<path-to-flask-helper>/venv-init.sh $1"
+  
+  also type
+  
+  sudo chmod -R 757 <path-to-flask-helper>
 
 On Windows:
   doskey flask-init = "<path-to-flask-helper>/flask-init.sh $1" && 
