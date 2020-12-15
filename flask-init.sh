@@ -1,4 +1,4 @@
-#!./bash
+#!/bin/bash
 rm -rf $1
 
 mkdir $1 $1/static $1/templates
